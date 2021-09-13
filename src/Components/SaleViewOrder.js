@@ -22,7 +22,7 @@ class SaleViewOrder extends React.Component{
         const datalength = afterparsemedicinedata.length
         let a = e.target.id
         for(let i = 0; i < datalength; i++){
-            if(a != i){
+            if(a !== i){
                 deletingitem.push(afterparsemedicinedata[i])
             }
             else{
@@ -39,7 +39,7 @@ class SaleViewOrder extends React.Component{
         const afterparsemedicinedata = JSON.parse(gettingdatafromlocalstore)
         const idgetting = e.target.id.split("n")[1]
         for(let i=0;i < afterparsemedicinedata.length;i++ ){
-            if(i == idgetting){
+            if(i === idgetting){
                 let orderid = document.getElementById("orderid"+i)
                 let CustomerName = document.getElementById("CustomerName"+i)
                 let CustomerContactNumber = document.getElementById("CustomerContactNumber"+i)
@@ -73,7 +73,7 @@ class SaleViewOrder extends React.Component{
         const afterparsemedicinedata = JSON.parse(gettingdatafromlocalstore)
         const idgetting = e.target.id.split("n")[1]
         for(let i=0;i < afterparsemedicinedata.length;i++ ){
-            if(i == idgetting){
+            if(i === idgetting){
                 let orderid = document.getElementById("orderid"+i)
                 let CustomerName = document.getElementById("CustomerName"+i)
                 let CustomerContactNumber = document.getElementById("CustomerContactNumber"+i)
@@ -114,7 +114,7 @@ class SaleViewOrder extends React.Component{
         const afterparsemedicinedataupdating = JSON.parse(gettingdatafromlocalstoreupdating)
         for(let i = 0; i < afterparsemedicinedataupdating.length; i++){
             const idgettings = e.target.id.split("n")[1]
-            if(idgettings != i){
+            if(idgettings !== i){
                 deletingitemupdating.push(afterparsemedicinedataupdating[i])
             }
             else{
