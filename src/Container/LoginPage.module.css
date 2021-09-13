@@ -1,0 +1,56 @@
+.loginpagemain{
+    width: 100%;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/124/758/545/black-and-blue-wallpaper-preview.jpg");
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-repeat: repeat;
+}
+
+.maincontainer{
+    width: 30%;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+}
+
+.formmain{
+    padding: 40px 0;
+}
+
+
+.formitem{
+    width: 80%;
+    margin: 10px;
+    height: 50px;
+    border: none;
+    text-decoration: none;
+    background-color: #F2F2F2;
+}
+
+
+
+
+.submitbutton{
+    background-color: #00B241;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+}
+
+.spanstyle{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+    color: beige;
+}

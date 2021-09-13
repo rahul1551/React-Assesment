@@ -1,0 +1,83 @@
+.updatebutton{
+    display: none;
+}
+
+.hide{
+    display: none;
+}
+
+.formitemdisplay{
+    text-align: center;
+    background-image: linear-gradient(#868F96 , #596164);
+    background-repeat: no-repeat;
+    padding: 80px 60px;
+    display: flex;
+    width: calc(100% - 120px);
+}
+
+.inputfield{
+    width: 50%;
+    height: 40px;
+    margin: 10px;
+    margin-left: -20px;
+}
+
+.lable{
+    width: 250px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.formitem{
+    margin: 2px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    
+}
+
+.form{
+    width: 100%;
+}
+
+.submitbutton{
+    width: 25%;
+    height: 50px;
+    margin: 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: #20bf55;
+    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    cursor: pointer;
+}
+
+.headingtitle{
+    margin: 0 0 50px 0;
+}
+
+.listmaincontainer{
+    width: calc(100% - 60px);
+    margin: 30px;
+    text-align: center;
+}
+
+.tablemain{
+    width: 100%;
+}
+
+.tablehadingrow{
+    width: 100%;
+    border: 1px solid lightslategray;
+    /* background-color: rgb(13, 126, 238); */
+    background-color: black;
+    color: white;
+    padding: 20px
+}
+
+.tabledatarow{
+    /* background-color: rgb(13, 235, 235); */
+    /* background-color: lime; */
+    background-color: #ffcfdf;
+    background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+}

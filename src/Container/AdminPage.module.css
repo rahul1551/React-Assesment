@@ -1,0 +1,93 @@
+.main{
+    width: 100%;
+}
+
+/* .allInAdmin{
+    background-image: url("https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&w=1815&h=1361.25&fit=crop&crop=faces");
+} */
+
+.maincontainer{
+    width: 100%;
+    display: flex;
+    background-color: #25262C;
+}
+
+.sidecontainer{
+    width: 20%;
+    padding: 0 50px;
+    height: calc(100vh - 85px);
+    /* overflow-scrolling: auto; */
+}
+
+.sidesubcontainer{
+    margin: 60px 0;
+}
+
+.p{
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid #D31056;
+    padding: 7px 20px;
+    font-weight: 700;
+    color: #D31056;
+    background: rgba(175, 40, 40, 0.15);
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    
+}
+
+.headcontainer{
+    background-image: linear-gradient(#868F96 , #596164);
+    width: 80%;
+    background-repeat: no-repeat;
+    visibility:1px;
+}
+
+.inputfield{
+    margin: 10px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.formitemdisplay{
+    text-align: center;
+    background-color: lightblue;
+    padding: 50px;
+   
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,74,83,1) 79%, rgba(0,212,255,1) 100%); */
+    background-color: #161618;
+}
+h1{
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel{
+    margin-left: -80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.signoutbutton{
+    width: 110px;
+    margin: 20px 0;
+    margin-right: -90px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #d4203c;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+.signoutbutton:hover{
+    background-color:lightgreen;
+    color: black;
+}
