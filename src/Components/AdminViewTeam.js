@@ -14,7 +14,7 @@ class AdminViewTeam extends React.Component {
         const afterparsemedicinedata = JSON.parse(gettingdatafromlocalstore)
         const datalength = afterparsemedicinedata.length
         for(let i = 0; i < datalength; i++){
-            if(e.target.id != i){
+            if(e.target.id !== i){
                 deletingitem.push(afterparsemedicinedata[i])
             }
             else{
@@ -30,7 +30,7 @@ class AdminViewTeam extends React.Component {
         const afterparsemedicinedata = JSON.parse(gettingdatafromlocalstore)
         const idgetting = e.target.id.split("n")[1]
         for(let i=0;i < afterparsemedicinedata.length;i++ ){
-            if(i == idgetting){
+            if(i === idgetting){
                 let FirstName = document.getElementById("FirstName"+i)
                 let LastName = document.getElementById("LastName"+i)
                 let Dateofbirth = document.getElementById("Dateofbirth"+i)
@@ -60,7 +60,7 @@ class AdminViewTeam extends React.Component {
         const afterparsemedicinedata = JSON.parse(gettingdatafromlocalstore)
         const idgetting = e.target.id.split("n")[1]
         for(let i=0;i < afterparsemedicinedata.length;i++ ){
-            if(i == idgetting){
+            if(i === idgetting){
                 let FirstName = document.getElementById("FirstName"+i)
                 let LastName = document.getElementById("LastName"+i)
                 let Dateofbirth = document.getElementById("Dateofbirth"+i)
@@ -96,7 +96,7 @@ class AdminViewTeam extends React.Component {
         const afterparsemedicinedataupdating = JSON.parse(gettingdatafromlocalstoreupdating)
         for(let i = 0; i < afterparsemedicinedataupdating.length; i++){
             const idgettings = e.target.id.split("n")[1]
-            if(idgettings != i){
+            if(idgettings !== i){
                 deletingitemupdating.push(afterparsemedicinedataupdating[i])
             }
             else{
