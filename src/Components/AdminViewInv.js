@@ -16,7 +16,7 @@ class AdminViewInv extends React.Component{
         const afterparsemedicinedata = JSON.parse(gettingdatafromlocalstore)
         const datalength = afterparsemedicinedata.length
         for(let i = 0; i < datalength; i++){
-            if(e.target.id !== i){
+            if(e.target.id != i){
                 deletingitem.push(afterparsemedicinedata[i])
             }
             else{
@@ -32,7 +32,7 @@ class AdminViewInv extends React.Component{
         const afterparsemedicinedata = JSON.parse(gettingdatafromlocalstore)
         const idgetting = e.target.id.split("n")[1]
         for(let i=0;i < afterparsemedicinedata.length;i++ ){
-            if(i === idgetting){
+            if(i == idgetting){
                 let Name = document.getElementById("Name"+i)
                 let ManufacturerName = document.getElementById("ManufacturerName"+i)
                 let Price = document.getElementById("Price"+i)
@@ -62,7 +62,7 @@ class AdminViewInv extends React.Component{
         const afterparsemedicinedata = JSON.parse(gettingdatafromlocalstore)
         const idgetting = e.target.id.split("n")[1]
         for(let i=0;i < afterparsemedicinedata.length;i++ ){
-            if(i === idgetting){
+            if(i == idgetting){
                 let Name = document.getElementById("Name"+i)
                 let ManufacturerName = document.getElementById("ManufacturerName"+i)
                 let Price = document.getElementById("Price"+i)
@@ -97,7 +97,7 @@ class AdminViewInv extends React.Component{
         const afterparsemedicinedataupdating = JSON.parse(gettingdatafromlocalstoreupdating)
         for(let i = 0; i < afterparsemedicinedataupdating.length; i++){
             const idgettings = e.target.id.split("n")[1]
-            if(idgettings !== i){
+            if(idgettings != i){
                 deletingitemupdating.push(afterparsemedicinedataupdating[i])
             }
             else{
